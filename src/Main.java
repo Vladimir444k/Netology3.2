@@ -1,10 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-
         BmiService service = new BmiService();
         double index = 1.87;
-        int bmis = service.calculate(index);
-        System.out.println(bmis);
-
+        int bodyMasIndex = service.calculate(index);
+        System.out.println(bodyMasIndex);
     }
 }
